@@ -1,0 +1,8 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "Test_CommonUI.h"
+#include "Modules/ModuleManager.h"
+
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, Test_CommonUI, "Test_CommonUI" );
+
+DEFINE_LOG_CATEGORY(LogTest_CommonUI)
